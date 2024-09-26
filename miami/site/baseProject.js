@@ -17,7 +17,7 @@ app.get('/',(request,response)=>{
 app.get('/about',(request,response)=>{
     response.render('about')
 })
-app.get('/nightlife',(request,response)=>{
+app.get('/astralsea',(request,response)=>{
     response.type('text/plain')
     response.send('Miami At Night')
 })
