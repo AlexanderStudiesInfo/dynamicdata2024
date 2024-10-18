@@ -20,24 +20,31 @@ app.engine('handlebars',expressHandlebars.engine({
 }))
 app.set('view engine','handlebars')
 const PORT = process.env.port || 3000
+
+const gallery = require("./data/gallery.json")
 //process routs before errors
 app.get('/',(request,response)=>{
+    console.log(gallery)
+    //import page-specific data
+    const data = require("./data/home-data.json")
     response.render('landing',{
-        title:"Welcome Adventurers"
-        abstract:"This is the Realm of Yether"
+        gallery,
+        data,
+        title:"This is venturers",
+        abstract:"This is the Realm of Yether",
         image:"tavernofyether.jpg"
     })
 })
 app.get('/about',(request,response)=>{
     response.render('page',{
-        title:"About Yether"
+        title:"About Yether",
         abstract:"The Realms of Yether is a living world that has been in creation since 2018."
     })
 })
 
 app.get('/astralsea',(request,response)=>{
     response.render('page',{
-        title:"Worlds of Yether"
+        title:"Worlds of Yether",
         abstract:"The Realms of Yether composes a universe with many different worlds, dimensions, and planes of existence."
     })
 })

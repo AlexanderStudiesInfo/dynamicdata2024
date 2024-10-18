@@ -1,0 +1,36 @@
+{
+    "title":"Welcome to Miami",
+    "abstract":"This is the abstract",
+    "image":"/images/eberron-newspaper.jpg",
+    "services":[
+        {
+            "title":"Transportation",
+            "intro":"You can move around Miami with these Services",
+            "list":[
+                "Uber",
+                "Bus",
+                "Metro Mover"
+            ],
+            "image":"/images/homepage/eberron-newspaper.jpg"
+        },
+        {
+            "title":"Miami Tours",
+            "intro":"You can see more of Miami with these Tours",
+            "list":[
+                "Tour 1",
+                "Tour 2",
+                "Tour 3"
+            ],
+            "image":"/images/homepage/eberron-newspaper.jpg"
+        }
+    ],
+    "packages":[
+        {
+            "title":"Beachday",
+            "description":"packages description goes here i.e spend the day at the W in the miami beach",
+            "image":"/images/homepage/eberron-newspaper.jpg",
+            "price":"1500",
+            "duration":"1 day"
+        }
+    ]
+}
