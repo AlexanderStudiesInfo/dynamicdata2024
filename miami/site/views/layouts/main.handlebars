@@ -1,50 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-   	{{!-- Import css styles --}}
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/owl/assets/owl.carousel.min.css">
-   	<link rel="stylesheet" href="/owl/assets/owl.theme.default.min.css">
-    {{!-- Overrides go last --}}
-    <link rel="stylesheet" href="/ccs/yether.css">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/owl.carousel.min.js"></script>
 </head>
 <body>
-  {{!-- Include a Partial --}}
-  {{>nav siteName="Miami Travel Site" date="10/03/2024"}}
-    {{!-- Default placeholder for handlebars --}}
-  <div class="container">
-  {{{body}}}
-
-  {{>gallery}}
-  </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="/js/bootstrap.bundle.js"></script>
-    <script src="/owl/owl.carousel.min.js"></script>
-    <script>
-   $(function(){
-       $('.owl-packages').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-});
-   });
-    </script>
-
-
-
+    <header>
+        <h1>{{title}}</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/rome">Rome</a></li>
+                <li><a href="/amalfi">Amalfi Coast</a></li>
+                <li><a href="/tuscany">Tuscany</a></li>
+                <li><a href="/venice">Venice</a></li>
+            </ul>
+        </nav>
+    </header>
+    {{{body}}}
+    <footer>
+        <p>&copy; 2024 Travel Adventures</p>
+    </footer>
 </body>
 </html>

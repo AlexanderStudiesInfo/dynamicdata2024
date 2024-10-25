@@ -1,0 +1,42 @@
+{
+    "home": {
+        "about": "Welcome to Italy, a country known for its rich culture, delicious cuisine, and stunning landscapes.",
+        "services": ["Customized Tours", "Hotel Booking", "Local Guides", "Transportation Services"],
+        "packages": [
+            {"name": "Italian Adventure", "description": "Explore major cities across Italy.", "price": "$2000"},
+            {"name": "Cultural Immersion", "description": "Experience local life and traditions.", "price": "$1500"}
+        ]
+    },
+    "rome": {
+        "about": "Rome, the capital city of Italy, is known for its nearly 3,000 years of globally influential art, architecture, and culture.",
+        "services": ["Vatican Tours", "Colosseum Visits", "Historical Walking Tours", "City Transportation"],
+        "packages": [
+            {"name": "Historic Rome", "description": "A guided tour through the heart of ancient Rome.", "price": "$300"},
+            {"name": "Art & Culture", "description": "Visit famous museums and historical sites.", "price": "$250"}
+        ]
+    },
+    "venice": {
+        "about": "Venice, a city built on water, is known for its canals, gondolas, and beautiful architecture.",
+        "services": ["Gondola Rides", "Island Tours", "Water Bus Transport", "Art Exhibitions"],
+        "packages": [
+            {"name": "Venetian Romance", "description": "A romantic getaway in the floating city.", "price": "$500"},
+            {"name": "Island Hopping", "description": "Explore nearby islands Murano, Burano, and more.", "price": "$450"}
+        ]
+    },
+    "florence": {
+        "about": "Florence, the birthplace of the Renaissance, is famous for its art, museums, and architecture.",
+        "services": ["Museum Tours", "Art Classes", "Wine Tastings", "Cooking Classes"],
+        "packages": [
+            {"name": "Renaissance Art Tour", "description": "Explore the best art galleries in Florence.", "price": "$400"},
+            {"name": "Tuscan Culinary Experience", "description": "Learn to cook traditional Tuscan dishes.", "price": "$350"}
+        ]
+    },
+    "tuscany": {
+        "about": "Tuscany is known for its picturesque landscapes, rolling hills, and vineyards producing world-famous wines.",
+        "services": ["Vineyard Tours", "Wine Tastings", "Countryside Stays", "Cycling Tours"],
+        "packages": [
+            {"name": "Wine Tour", "description": "Visit vineyards and taste the best wines of Tuscany.", "price": "$500"},
+            {"name": "Countryside Retreat", "description": "Stay in a cozy farmhouse in the hills.", "price": "$450"}
+        ]
+    }
+}

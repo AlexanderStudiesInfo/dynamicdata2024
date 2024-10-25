@@ -1,0 +1,42 @@
+{
+    "about": "Venice, the City of Canals, is a romantic and unique destination famous for its winding canals, gondolas, and exquisite architecture.",
+    "services": [
+      "Gondola rides",
+      "Guided walking tours",
+      "Water taxi services",
+      "Exclusive glass-blowing demonstrations"
+    ],
+    "packages": [
+      {
+        "name": "Venice Highlights Tour",
+        "description": "A full-day tour exploring St. Mark's Basilica, the Grand Canal, and Rialto Bridge.",
+        "price": "$199"
+      },
+      {
+        "name": "Romantic Gondola Ride",
+        "description": "A private gondola ride through the canals of Venice.",
+        "price": "$80"
+      },
+      {
+        "name": "Venetian Art & Culture",
+        "description": "Visit art museums and cultural landmarks in Venice.",
+        "price": "$160"
+      },
+      {
+        "name": "Carnival Experience",
+        "description": "Learn about Venice's famous Carnival with mask-making workshops.",
+        "price": "$120"
+      },
+      {
+        "name": "Venice by Night",
+        "description": "An evening tour of the city's most stunning locations.",
+        "price": "$100"
+      },
+      {
+        "name": "Food & Wine of Venice",
+        "description": "Taste your way through Venice's best food and wine spots.",
+        "price": "$220"
+      }
+    ]
+  }
+  

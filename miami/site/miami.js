@@ -1,80 +1,91 @@
-//Sections descriptions:
-//About: 1 short paragraph per page
-// Services: Show at least 4 services per page
-// Packages: Show at least 6 packages per page 
-// Gallery: Show at least 16 images per page
-
-
-// imports express into our project 
+// Imports express into our project 
 const express = require('express')
-//create the express server inside a vairable called app
+// Create the express server inside a variable called app
 const app = express()
-//Specify static routes
+// Specify static routes
 app.use(express.static('public'))
 
-//importa a package for handlebars
+// Import a package for handlebars
 const expressHandlebars = require('express-handlebars')
-//make express use the handlebars template engine
-app.engine('handlebars',expressHandlebars.engine({
-    defaultLayout:'main',
+// Make express use the handlebars template engine
+app.engine('handlebars', expressHandlebars.engine({
+    defaultLayout: 'main',
 }))
-app.set('view engine','handlebars')
+app.set('view engine', 'handlebars')
 const PORT = process.env.port || 3000
 
 const gallery = require("./data/gallery.json")
-//process routs before errors
-app.get('/',(request,response)=>{
+// Process routes before errors
+app.get('/', (request, response) => {
     console.log(gallery)
-    //import page-specific data
+    // Import page-specific data
     const data = require("./data/home-data.json")
-    response.render('landing',{
+    response.render('landing', {
         gallery,
         data,
-        title:"This is venturers",
-        abstract:"This is the Realm of Yether",
-        image:"tavernofyether.jpg"
+        title: "Welcome to Venturers",
+        abstract: "Explore the beauty and charm of Italy",
+        image: "italianlandscape.jpg"
     })
 })
-app.get('/about',(request,response)=>{
-    response.render('page',{
-        title:"About Yether",
-        abstract:"The Realms of Yether is a living world that has been in creation since 2018."
-    })
-})
-
-app.get('/astralsea',(request,response)=>{
-    response.render('page',{
-        title:"Worlds of Yether",
-        abstract:"The Realms of Yether composes a universe with many different worlds, dimensions, and planes of existence."
+app.get('/about', (request, response) => {
+    response.render('page', {
+        title: "About Italy",
+        abstract: "Italy, a country known for its rich history, exquisite cuisine, and stunning landscapes."
     })
 })
 
+app.get('/services', (request, response) => {
+    response.render('page', {
+        title: "Our Services",
+        abstract: "We offer a variety of services to make your Italian vacation unforgettable.",
+        services: [
+            "Guided City Tours",
+            "Wine Tasting Experiences",
+            "Culinary Workshops",
+            "Historical Site Excursions"
+        ]
+    })
+})
 
-app.get('/nightlife',(request,response)=>{
+app.get('/packages', (request, response) => {
+    response.render('page', {
+        title: "Travel Packages",
+        abstract: "Choose from a variety of packages tailored to explore the best of Italy.",
+        packages: [
+            "Rome and Vatican City Experience",
+            "Tuscany Countryside Getaway",
+            "Amalfi Coast Adventure",
+            "Venetian Lagoon Tour",
+            "Cinque Terre Coastal Retreat",
+            "Sicily Cultural Journey"
+        ]
+    })
+})
+
+app.get('/nightlife', (request, response) => {
     response.type('text/plain')
-    response.send('Miami At Night')
+    response.send('Experience the vibrant nightlife of Rome, Milan, and Florence!')
 })
-app.get('/beaches',(request,response)=>{
+app.get('/beaches', (request, response) => {
     response.type('text/plain')
-    response.send('Miami Beach and more!')
+    response.send('Discover the beautiful beaches along the Amalfi Coast, Sardinia, and more!')
 })
-//handle the error first
-//NOT FOUND!
-app.use( (request,response)=>{
+// Handle the error first
+// NOT FOUND!
+app.use((request, response) => {
     response.status(404)
     response.render('404')
 })
 
-//SERVER ERROR :(
-
-app.use( (error,request,response,next)=>{
+// SERVER ERROR :(
+app.use((error, request, response, next) => {
     console.log(error.message)
     response.status(500)
     response.render('500')
 })
 
-app.listen(PORT, ()=>{
-    console.log('Express is running on http://localhost:${PORT}')
+app.listen(PORT, () => {
+    console.log(`Express is running on http://localhost:${PORT}`)
     console.log('Press ctrl-c to terminate')
-
 })

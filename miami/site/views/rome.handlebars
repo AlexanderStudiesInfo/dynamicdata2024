@@ -1,0 +1,41 @@
+{{!-- Rome Page --}}
+{{> header title="Rome - The Eternal City"}}
+
+<section class="slideshow">
+    {{!-- Slideshow partial --}}
+    {{> slideshow images=gallery.images }}
+</section>
+
+<section class="about">
+    <h2>About Rome</h2>
+    <p>{{data.about}}</p>
+</section>
+
+<section class="services">
+    <h2>Services in Rome</h2>
+    <ul>
+        {{#each data.services}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</section>
+
+<section class="packages">
+    <h2>Tour Packages for Rome</h2>
+    <div class="owl-packages">
+        {{#each data.packages}}
+            <div class="package-item">
+                <h3>{{this.name}}</h3>
+                <p>{{this.description}}</p>
+                <p>Price: {{this.price}}</p>
+            </div>
+        {{/each}}
+    </div>
+</section>
+
+<section class="gallery">
+    {{!-- Gallery partial --}}
+    {{> gallery images=gallery.images }}
+</section>
+
+{{> footer}}

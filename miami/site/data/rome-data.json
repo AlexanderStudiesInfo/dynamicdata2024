@@ -1,0 +1,42 @@
+{
+    "about": "Rome, the Eternal City, is a vibrant and historical destination known for its iconic landmarks such as the Colosseum, Vatican City, and Trevi Fountain. It is a city where ancient ruins meet modern life.",
+    "services": [
+      "Guided tours of historical sites",
+      "Exclusive Vatican Museum access",
+      "Italian cuisine cooking classes",
+      "Luxury hotel accommodations"
+    ],
+    "packages": [
+      {
+        "name": "Classic Rome Tour",
+        "description": "A 3-day tour covering the Colosseum, Roman Forum, and Vatican City.",
+        "price": "$399"
+      },
+      {
+        "name": "Rome by Night",
+        "description": "Explore the illuminated monuments of Rome at night.",
+        "price": "$120"
+      },
+      {
+        "name": "Gastronomic Rome",
+        "description": "Discover Rome's culinary secrets with a local chef.",
+        "price": "$180"
+      },
+      {
+        "name": "Ancient Rome and Art",
+        "description": "Dive deep into Rome's history and art scene.",
+        "price": "$320"
+      },
+      {
+        "name": "Family Adventure in Rome",
+        "description": "A fun-filled package suitable for families with children.",
+        "price": "$250"
+      },
+      {
+        "name": "Luxury Rome Escape",
+        "description": "Experience Rome in luxury with a 5-star hotel and VIP tours.",
+        "price": "$650"
+      }
+    ]
+  }
+  

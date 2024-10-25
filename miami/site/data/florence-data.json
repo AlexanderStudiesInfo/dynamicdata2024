@@ -1,0 +1,42 @@
+{
+    "about": "Florence, the cradle of the Renaissance, is home to world-class art, stunning architecture, and delicious Tuscan cuisine.",
+    "services": [
+      "Museum passes and guided tours",
+      "Wine tasting in Tuscany",
+      "Art classes and workshops",
+      "Private transfers and local transport"
+    ],
+    "packages": [
+      {
+        "name": "Renaissance Florence Tour",
+        "description": "Discover the best of Florence's art and architecture.",
+        "price": "$200"
+      },
+      {
+        "name": "Tuscan Wine Tasting",
+        "description": "A day trip to the vineyards of Tuscany, including wine tastings.",
+        "price": "$150"
+      },
+      {
+        "name": "Florence Art & Culture",
+        "description": "An in-depth look at the museums and galleries of Florence.",
+        "price": "$180"
+      },
+      {
+        "name": "Cooking Class in Florence",
+        "description": "Learn to cook traditional Italian dishes with a local chef.",
+        "price": "$90"
+      },
+      {
+        "name": "Luxury Florence Experience",
+        "description": "Exclusive access to Florence's finest attractions.",
+        "price": "$500"
+      },
+      {
+        "name": "Florence Walking Tour",
+        "description": "Explore the city's landmarks on a guided walking tour.",
+        "price": "$50"
+      }
+    ]
+  }
+  

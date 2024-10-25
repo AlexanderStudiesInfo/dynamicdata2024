@@ -1,0 +1,42 @@
+{
+    "about": "Tuscany, known for its rolling hills, vineyards, and charming towns, is a beautiful destination for those looking to relax and enjoy Italy's countryside.",
+    "services": [
+      "Vineyard tours",
+      "Countryside biking experiences",
+      "Hot air balloon rides",
+      "Rural villa stays"
+    ],
+    "packages": [
+      {
+        "name": "Tuscany Vineyard Tour",
+        "description": "Visit local vineyards and sample some of the best wines in Tuscany.",
+        "price": "$220"
+      },
+      {
+        "name": "Tuscan Countryside Retreat",
+        "description": "Relax in a luxurious villa surrounded by nature.",
+        "price": "$400"
+      },
+      {
+        "name": "Bike through Tuscany",
+        "description": "Enjoy a biking adventure through Tuscany's scenic routes.",
+        "price": "$130"
+      },
+      {
+        "name": "Hot Air Balloon Ride",
+        "description": "Experience Tuscany from above in a hot air balloon.",
+        "price": "$300"
+      },
+      {
+        "name": "Tuscan Cooking Experience",
+        "description": "Learn to cook traditional Tuscan dishes.",
+        "price": "$100"
+      },
+      {
+        "name": "Hill Towns of Tuscany Tour",
+        "description": "Visit medieval towns like San Gimignano and Siena.",
+        "price": "$180"
+      }
+    ]
+  }
+  
