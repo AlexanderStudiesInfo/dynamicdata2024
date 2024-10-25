@@ -1,36 +1,44 @@
 {
-    "title":"Welcome to Miami",
-    "abstract":"This is the abstract",
-    "image":"/images/eberron-newspaper.jpg",
-    "services":[
+    "title": "Welcome to Italy",
+    "abstract": "Explore the beauty, history, and culture of Italy.",
+    "image": "/images/italy-newspaper.jpg",
+    "services": [
         {
-            "title":"Transportation",
-            "intro":"You can move around Miami with these Services",
-            "list":[
-                "Uber",
-                "Bus",
-                "Metro Mover"
+            "title": "Transportation",
+            "intro": "You can travel across Italy with these services",
+            "list": [
+                "Trenitalia",
+                "FlixBus",
+                "Taxi",
+                "Vaporetto (Venice waterbus)"
             ],
-            "image":"/images/homepage/eberron-newspaper.jpg"
+            "image": "/images/gallery/italy-transport.jpg"
         },
         {
-            "title":"Miami Tours",
-            "intro":"You can see more of Miami with these Tours",
-            "list":[
-                "Tour 1",
-                "Tour 2",
-                "Tour 3"
+            "title": "Italy Tours",
+            "intro": "Discover the wonders of Italy with these tours",
+            "list": [
+                "Vatican City Tour (Rome)",
+                "Tuscan Wine Tour (Florence)",
+                "Gondola Ride Tour (Venice)"
             ],
-            "image":"/images/homepage/eberron-newspaper.jpg"
+            "image": "/images/gallery/italianlandscape.jpg"
         }
     ],
-    "packages":[
+    "packages": [
         {
-            "title":"Beachday",
-            "description":"packages description goes here i.e spend the day at the W in the miami beach",
-            "image":"/images/homepage/eberron-newspaper.jpg",
-            "price":"1500",
-            "duration":"1 day"
+            "title": "Tuscan Getaway",
+            "description": "Spend a day exploring the scenic Tuscan countryside, including a visit to a local winery and lunch at a rustic farmhouse.",
+            "image": "/images/gallery/lush-vineyard-hills.jpg",
+            "price": "1200",
+            "duration": "1 day"
+        },
+        {
+            "title": "Venetian Adventure",
+            "description": "A unique day spent exploring Venice’s canals, visiting Piazza San Marco, and enjoying a traditional gondola ride.",
+            "image": "/images/gallery/gondolas-on-the-grand-canal.jpeg",
+            "price": "1500",
+            "duration": "1 day"
         }
     ]
 }

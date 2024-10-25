@@ -1,3 +1,4 @@
+/* General Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
@@ -6,28 +7,19 @@ body {
     padding: 0;
 }
 
-header nav ul {
-    display: flex;
-    list-style: none;
+/* Optional Custom Header Styles */
+header {
+    padding: 20px 0;
+}
+
+/* Only add custom styles to specific classes */
+.custom-header {
     background-color: #333;
-    padding: 10px;
+    color: white;
+    text-align: center;
 }
 
-header nav ul li {
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 15px;
-    border-radius: 5px;
-}
-
-header nav ul li a:hover {
-    background-color: #555;
-}
-
+/* Example: Styling custom sections without conflicting with Bootstrap */
 .slideshow-container {
     display: flex;
     overflow: hidden;
@@ -36,24 +28,38 @@ header nav ul li a:hover {
     height: 300px;
 }
 
-.slide {
-    flex: 1;
-    transition: transform 0.5s ease-in-out;
-}
-
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
 }
 
-.gallery-item {
-    position: relative;
-    overflow: hidden;
-}
-
 .gallery-item img {
     width: 100%;
     height: auto;
-    display: block;
+}
+
+/* Optional Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* If you want to apply custom colors to Bootstrap components, target their specific classes */
+.navbar {
+    background-color: #333 !important;  /* Custom dark background */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;  /* White text for links */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #555 !important;  /* Darker gray on hover */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;  /* Custom spacing between nav items */
 }
