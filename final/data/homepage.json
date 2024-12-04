@@ -1,0 +1,95 @@
+{
+    "siteName": "Mystic Emporium",
+    "tagline": "Where Magic Meets Reality",
+    "heroSection": {
+        "headline": "Discover the Power of Legends",
+        "subheadline": "Explore an unparalleled selection of enchanted artifacts, mystical armors, and arcane wonders.",
+        "ctaText": "Shop Now",
+        "ctaLink": "/shop",
+        "backgroundImage": "/images/home-hero.jpg"
+    },
+    "featuredCategories": [
+        {
+            "name": "Weapons",
+            "description": "Mastercrafted blades, bows, and more to suit any adventurer.",
+            "image": "/images/weapons.jpg",
+            "link": "/weapons"
+        },
+        {
+            "name": "Armors",
+            "description": "Unbreakable protection for your most dangerous quests.",
+            "image": "/images/armors.jpg",
+            "link": "/armors"
+        },
+        {
+            "name": "Consumables",
+            "description": "Potions, scrolls, and elixirs to turn the tide of battle.",
+            "image": "/images/consumables.jpg",
+            "link": "/consumables"
+        },
+        {
+            "name": "Arcana",
+            "description": "Unleash the mysteries of the arcane with powerful magical tools.",
+            "image": "/images/arcana.jpg",
+            "link": "/arcana"
+        }
+    ],
+    "featuredProducts": [
+        {
+            "id": 1,
+            "category": "Swords",
+            "name": "Shadowfang Blade",
+            "description": "A sleek sword imbued with dark energy, perfect for swift and silent attacks.",
+            "price": 120.99,
+            "image": "/images/shadowfang.jpg"
+        },
+        {
+            "id": 5,
+            "category": "Heavy Armor",
+            "name": "Steelheart Plate",
+            "description": "A robust set of plate armor, offering unmatched defense against physical attacks.",
+            "price": 250.99,
+            "image": "/images/steelheart.jpg"
+        },
+        {
+            "id": 9,
+            "category": "Potions",
+            "name": "Elixir of Vitality",
+            "description": "A vibrant red potion that restores a significant amount of health instantly.",
+            "price": 50.99,
+            "image": "/images/vitality_elixir.jpg"
+        },
+        {
+            "id": 15,
+            "category": "Books",
+            "name": "Grimoire of Forbidden Knowledge",
+            "description": "An ancient tome containing powerful and dangerous spells, bound in cursed leather.",
+            "price": 300.75,
+            "image": "/images/grimoire_forbidden.jpg"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Arin the Brave",
+            "text": "The Flameforged Greatsword turned the tide in my battle against the Shadow Horde. Mystic Emporium never disappoints!",
+            "avatar": "/images/testimonial-arin.jpg"
+        },
+        {
+            "name": "Luna Starcaller",
+            "text": "Their potions are a lifesaver! The Elixer of Vitality is a must-have for any adventurer.",
+            "avatar": "/images/testimonial-luna.jpg"
+        },
+        {
+            "name": "Thaddeus the Scholar",
+            "text": "The Runed Spellbook is an invaluable resource for mastering the arcane arts at a reasonable price.",
+            "avatar": "/images/testimonial-thaddeus.jpg"
+        }
+    ],
+    "ctaBanner": {
+        "headline": "Ready to Begin Your Adventure?",
+        "subheadline": "Equip yourself with legendary items from Mystic Emporium.",
+        "ctaText": "Start Shopping",
+        "ctaLink": "/shop",
+        "backgroundImage": "/images/cta-banner.jpg"
+    }
+}

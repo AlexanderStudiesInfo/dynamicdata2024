@@ -1,0 +1,22 @@
+{
+  "name": "fantasy_shop",
+  "version": "1.0.0",
+  "description": "Mystic Emporium is the premier destination for adventurers, mages, and dreamers seeking the finest magical artifacts, enchanted armors, and legendary consumables. Our curated selection of fantasy items blends the mystical and the practical, ensuring you’re prepared for every quest, from the mundane to the extraordinary",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "install express"
+  },
+  "keywords": [
+    "final"
+  ],
+  "author": "Alexander Hurtado",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
+  }
+}

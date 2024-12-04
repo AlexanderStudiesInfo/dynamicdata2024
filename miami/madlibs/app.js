@@ -7,12 +7,18 @@ app.use(express.static('public'))
 
 // Import a package for handlebars
 const expressHandlebars = require('express-handlebars')
+
+
 // Make express use the handlebars template engine
 app.engine('handlebars', expressHandlebars.engine({
     defaultLayout: 'main',
 }))
 app.set('view engine', 'handlebars')
 const PORT = process.env.port || 4000
+
+app.set('view engine', 'handlebars')
+
+const handler = require('./lib/handler')
 
 app.get("/",(req,res)=>{
     res.render('page')
@@ -30,6 +36,20 @@ app.post('/process',(req,res)=>{
 app.get('/process',(req,res)=>{
     console.log(req.query)
 })
+
+app.get('/newsletter-signup', handler.newsletterSignup)
+
+app.post('/newsletter-signup/process', handler.newsletterSignupProcess) 
+
+app.get('/newsletter/list', handler.newsletterSignupList)
+
+app.get('/newsletter/thankyou', (req,res)=>(
+    res.render('thankyou')
+))
+//newsletter/details/?email=jshdgfj@kjhskhdfkjh.com
+app.get('/newsletter/details/:email',handler.newsletterUser)
+app.get('/newsletter/details/:email',handler.newsletterUserDelete)
+
 
 app.use((request, response) => {
     response.status(404)

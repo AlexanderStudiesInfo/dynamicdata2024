@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "category": "Swords",
+            "name": "Shadowfang Blade",
+            "description": "A sleek sword imbued with dark energy, perfect for swift and silent attacks.",
+            "price": 120.99,
+            "image": "/images/shadowfang.jpg",
+            "gallery": [
+                "/images/shadowfang1.jpg",
+                "/images/shadowfang2.jpg",
+                "/images/shadowfang3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Bows",
+            "name": "Eclipse Bow",
+            "description": "A mystical bow crafted from celestial wood, known to enhance the accuracy of its wielder.",
+            "price": 150.99,
+            "image": "/images/eclipse.jpg",
+            "gallery": [
+                "/images/eclipse1.jpg",
+                "/images/eclipse2.jpg",
+                "/images/eclipse3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "Axes",
+            "name": "Thunderstrike Axe",
+            "description": "A heavy axe forged in storms, capable of unleashing lightning with each swing.",
+            "price": 180.50,
+            "image": "/images/thunderstrike.jpg",
+            "gallery": [
+                "/images/thunderstrike1.jpg",
+                "/images/thunderstrike2.jpg",
+                "/images/thunderstrike3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Daggers",
+            "name": "Venomfang Dagger",
+            "description": "A lightweight dagger tipped with deadly poison, ideal for close combat.",
+            "price": 90.75,
+            "image": "/images/venomfang.jpg",
+            "gallery": [
+                "/images/venomfang1.jpg",
+                "/images/venomfang2.jpg",
+                "/images/venomfang3.jpg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "products": [
+        {
+            "id": 13,
+            "category": "Wands",
+            "name": "Wand of Eldritch Power",
+            "description": "A slender wand etched with runes, capable of casting high-level arcane spells.",
+            "price": 250.00,
+            "image": "/images/wand_eldritch.jpg",
+            "gallery": [
+                "/images/wand_eldritch1.jpg",
+                "/images/wand_eldritch2.jpg",
+                "/images/wand_eldritch3.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "category": "Staffs",
+            "name": "Staff of the Archmage",
+            "description": "A towering staff imbued with the essence of the elements, enhancing spell potency.",
+            "price": 400.99,
+            "image": "/images/staff_archmage.jpg",
+            "gallery": [
+                "/images/staff_archmage1.jpg",
+                "/images/staff_archmage2.jpg",
+                "/images/staff_archmage3.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "category": "Books",
+            "name": "Grimoire of Forbidden Knowledge",
+            "description": "An ancient tome containing powerful and dangerous spells, bound in cursed leather.",
+            "price": 300.75,
+            "image": "/images/grimoire_forbidden.jpg",
+            "gallery": [
+                "/images/grimoire_forbidden1.jpg",
+                "/images/grimoire_forbidden2.jpg",
+                "/images/grimoire_forbidden3.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "category": "Crystals",
+            "name": "Crystal of Arcane Resonance",
+            "description": "A glowing crystal that amplifies magical energy, used in spellcasting rituals.",
+            "price": 180.50,
+            "image": "/images/crystal_arcane.jpg",
+            "gallery": [
+                "/images/crystal_arcane1.jpg",
+                "/images/crystal_arcane2.jpg",
+                "/images/crystal_arcane3.jpg"
+            ]
+        }
+    ]
+}
