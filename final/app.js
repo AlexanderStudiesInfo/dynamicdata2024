@@ -34,25 +34,29 @@ app.get("/about",(req,res)=>{
     res.render('page',{data})
 })
 // all category pages
-app.get("/category1",(req,res)=>{
-    const data = require('./data/category_1.json') 
+app.get("/weapons",(req,res)=>{
+    const data = require('./data/weapons.json') 
     res.render('category',{data})
 })
-app.get("/category2",(req,res)=>{
-    const data = require('./data/category_2.json') 
+app.get("/armors",(req,res)=>{
+    const data = require('./data/armors.json') 
     res.render('category',{data})
 })
-app.get("/category3",(req,res)=>{
-    const data = require('./data/category_3.json') 
+app.get("/consumables",(req,res)=>{
+    const data = require('./data/consumables.json') 
+    res.render('category',{data})
+})
+app.get("/arcana",(req,res)=>{
+    const data = require('./data/arcana.json') 
     res.render('category',{data})
 })
 //details page
-app.get("/category1/details/:id",(req,res)=>{
+app.get("/weapons/details/:id",(req,res)=>{
 
     let data = {};
     
 
-    const data = require('./data/category_1.json') 
+    const data = require('./data/weapons.json') 
     
     console.log(data)
     // filter the data to get only the data that matches the id
@@ -66,6 +70,64 @@ app.get("/category1/details/:id",(req,res)=>{
 
     res.render('details',{"data":tempData})
 })
+app.get("/armors/details/:id",(req,res)=>{
+
+    let data = {};
+    
+
+    const data = require('./data/armors.json') 
+    
+    console.log(data)
+    // filter the data to get only the data that matches the id
+    // temporary filter
+    var tempData = {"products":[]}
+    tempData.products = data.products.filter((product)=>{
+        return product.id == req.params.id
+    })
+    console.log("data filter")
+    console.log(data)
+
+    res.render('details',{"data":tempData})
+})
+app.get("/consumables/details/:id",(req,res)=>{
+
+    let data = {};
+    
+
+    const data = require('./data/consumables.json') 
+    
+    console.log(data)
+    // filter the data to get only the data that matches the id
+    // temporary filter
+    var tempData = {"products":[]}
+    tempData.products = data.products.filter((product)=>{
+        return product.id == req.params.id
+    })
+    console.log("data filter")
+    console.log(data)
+
+    res.render('details',{"data":tempData})
+})
+app.get("/arcana/details/:id",(req,res)=>{
+
+    let data = {};
+    
+
+    const data = require('./data/arcana.json') 
+    
+    console.log(data)
+    // filter the data to get only the data that matches the id
+    // temporary filter
+    var tempData = {"products":[]}
+    tempData.products = data.products.filter((product)=>{
+        return product.id == req.params.id
+    })
+    console.log("data filter")
+    console.log(data)
+
+    res.render('details',{"data":tempData})
+})
+
 
 let cart = {"products":[]}
 
