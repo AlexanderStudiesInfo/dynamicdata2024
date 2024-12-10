@@ -1,55 +1,55 @@
 {
     "products": [
         {
-            "id": 5,
+            "id": 1,
             "category": "Heavy Armor",
             "name": "Steelheart Plate",
             "description": "A robust set of plate armor, offering unmatched defense against physical attacks.",
             "price": 250.99,
-            "image": "/images/steelheart.jpg",
+            "image": "/public/images/steelheart.jpeg",
             "gallery": [
-                "/images/steelheart1.jpg",
-                "/images/steelheart2.jpg",
-                "/images/steelheart3.jpg"
+                "/public/images/steelheart1.webp",
+                "/public/images/steelheart2.webp",
+                "/public/images/steelheart3.jpg"
             ]
         },
         {
-            "id": 6,
+            "id": 1,
             "category": "Light Armor",
             "name": "Shadowweave Tunic",
             "description": "A lightweight tunic crafted from enchanted shadow silk, granting increased agility.",
             "price": 180.49,
-            "image": "/images/shadowweave.jpg",
+            "image": "/public/images/shadowweave.jpeg",
             "gallery": [
-                "/images/shadowweave1.jpg",
-                "/images/shadowweave2.jpg",
-                "/images/shadowweave3.jpg"
+                "/public/images/shadowweave1.webp",
+                "/public/images/shadowweave2.jpg",
+                "/public/images/shadowweave3.jpg"
             ]
         },
         {
-            "id": 7,
+            "id": 1,
             "category": "Medium Armor",
             "name": "Dragonscale Vest",
             "description": "An armor forged from the scales of a dragon, balancing protection and flexibility.",
             "price": 220.75,
-            "image": "/images/dragonscale.jpg",
+            "image": "/public/images/dragonscale.jpeg",
             "gallery": [
-                "/images/dragonscale1.jpg",
-                "/images/dragonscale2.jpg",
-                "/images/dragonscale3.jpg"
+                "/public/images/dragonscale1.jpg",
+                "/public/images/dragonscale2.webp",
+                "/public/images/dragonscale3.webp"
             ]
         },
         {
-            "id": 8,
+            "id": 1,
             "category": "Magical Armor",
             "name": "Starlight Robes",
             "description": "Ethereal robes infused with celestial magic, offering protection against spells.",
             "price": 300.00,
-            "image": "/images/starlight.jpg",
+            "image": "/public/images/starlight.jpeg",
             "gallery": [
-                "/images/starlight1.jpg",
-                "/images/starlight2.jpg",
-                "/images/starlight3.jpg"
+                "/public/images/starlight1.webp",
+                "/public/images/starlight2.webp",
+                "/public/images/starlight3.jpg"
             ]
         }
     ]

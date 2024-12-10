@@ -1,0 +1,62 @@
+<!-- Hero Section -->
+<section class="hero" style="background-image: url('{{heroSection.backgroundImage}}');">
+  <div class="hero-content">
+    <h2>{{heroSection.headline}}</h2>
+    <p>{{heroSection.subheadline}}</p>
+    <a href="{{heroSection.ctaLink}}" class="btn">{{heroSection.ctaText}}</a>
+  </div>
+</section>
+
+<!-- Featured Categories -->
+<section class="categories">
+  <h2>Explore Our Categories</h2>
+  <div class="categories-grid">
+    {{#each featuredCategories}}
+    <div class="category">
+      <img src="{{image}}" alt="{{name}}">
+      <h3>{{name}}</h3>
+      <p>{{description}}</p>
+      <a href="{{link}}" class="btn">Shop {{name}}</a>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section class="products">
+  <h2>Featured Products</h2>
+  <div class="products-grid">
+    {{#each featuredProducts}}
+    <div class="products">
+      <img src="{{image}}" alt="{{name}}">
+      <h3>{{name}}</h3>
+      <p>{{description}}</p>
+      <p class="price">${{price}}</p>
+      <a href="/products/{{id}}" class="btn">View Product</a>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonials-grid">
+    {{#each testimonials}}
+    <div class="testimonial">
+      <img src="{{avatar}}" alt="{{name}}">
+      <blockquote>{{text}}</blockquote>
+      <p class="customer-name">- {{name}}</p>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<!-- Call to Action Banner -->
+<section class="cta-banner" style="background-image: url('{{ctaBanner.backgroundImage}}');">
+  <div class="cta-content">
+    <h2>{{ctaBanner.headline}}</h2>
+    <p>{{ctaBanner.subheadline}}</p>
+    <a href="{{ctaBanner.ctaLink}}" class="btn">{{ctaBanner.ctaText}}</a>
+  </div>
+</section>

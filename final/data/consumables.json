@@ -1,55 +1,55 @@
 {
     "products": [
         {
-            "id": 9,
+            "id": 1,
             "category": "Potions",
             "name": "Elixir of Vitality",
             "description": "A vibrant red potion that restores a significant amount of health instantly.",
             "price": 50.99,
-            "image": "/images/vitality_elixir.jpg",
+            "image": "/public/images/vitality_elixir.jpg",
             "gallery": [
-                "/images/vitality_elixir1.jpg",
-                "/images/vitality_elixir2.jpg",
-                "/images/vitality_elixir3.jpg"
+                "/public/images/vitality_elixir1.jpeg",
+                "/public/images/vitality_elixir2.jpeg",
+                "/public/images/vitality_elixir3.webp"
             ]
         },
         {
-            "id": 10,
+            "id": 1,
             "category": "Scrolls",
             "name": "Scroll of Fireball",
             "description": "A magical scroll containing the incantation for a devastating fireball spell.",
             "price": 75.50,
-            "image": "/images/scroll_fireball.jpg",
+            "image": "/public/images/scroll_fireball.jpeg",
             "gallery": [
-                "/images/scroll_fireball1.jpg",
-                "/images/scroll_fireball2.jpg",
-                "/images/scroll_fireball3.jpg"
+                "/public/images/scroll_fireball1.webp",
+                "/public/images/scroll_fireball2.png",
+                "/public/images/scroll_fireball3.png"
             ]
         },
         {
-            "id": 11,
+            "id": 1,
             "category": "Food",
             "name": "Mystic Bread",
             "description": "A loaf of enchanted bread that restores stamina and boosts strength for an hour.",
             "price": 15.25,
-            "image": "/images/mystic_bread.jpg",
+            "image": "/public/images/mystic_bread.jpg",
             "gallery": [
-                "/images/mystic_bread1.jpg",
-                "/images/mystic_bread2.jpg",
-                "/images/mystic_bread3.jpg"
+                "/public/images/mystic_bread1.avif",
+                "/public/images/mystic_bread2.png",
+                "/public/images/mystic_bread3.webp"
             ]
         },
         {
-            "id": 12,
+            "id": 1,
             "category": "Elixirs",
             "name": "Potion of Invisibility",
             "description": "A rare potion that grants temporary invisibility to the user.",
             "price": 120.00,
-            "image": "/images/potion_invisibility.jpg",
+            "image": "/public/images/potion_invisibility.png",
             "gallery": [
-                "/images/potion_invisibility1.jpg",
-                "/images/potion_invisibility2.jpg",
-                "/images/potion_invisibility3.jpg"
+                "/public/images/potion_invisibility1.jpg",
+                "/public/images/potion_invisibility2.jpeg",
+                "/public/images/potion_invisibility3.webp"
             ]
         }
     ]
