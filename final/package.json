@@ -16,7 +16,7 @@
   "author": "Alexander Hurtado",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "express-handlebars": "^8.0.1"
   }
 }

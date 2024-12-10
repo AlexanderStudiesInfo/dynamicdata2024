@@ -1,4 +1,21 @@
 <h1>Cart</h1>
+
 {{#each products}}
-{{this.image}} {{this.id}} {{this.name}} {{this.description}} {{this.price}} <hr>
+    <div>
+        <img src="{{this.image}}" alt="{{this.name}}" /> <!-- Assuming `image` is a property in the product data -->
+        <p>ID: {{this.id}}</p>
+        <p>Name: {{this.name}}</p>
+        <p>Description: {{this.description}}</p>
+        <p>Price: ${{this.price}}</p>
+        <hr>
+    </div>
 {{/each}}
+
+<!-- Add a BUY button -->
+{{#if products.length}}
+    <form action="/checkout" method="GET">
+        <button type="submit">BUY</button>
+    </form>
+{{else}}
+    <p>Your cart is empty.</p>
+{{/if}}

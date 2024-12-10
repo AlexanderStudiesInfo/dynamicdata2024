@@ -48,7 +48,7 @@ categories.forEach(category => {
     // Route for item details in category
     app.get(`/${category}/details/:id`, (req, res) => {
         const data = require(`./data/${category}.json`);
-        const product = data.products.find(product => product.id == req.params.id);
+        const product = data.product.find(product => product.id == req.params.id);
 
         if (product) {
             res.render('details', { product });  // Changed 'products' to 'product' to match the variable
@@ -59,14 +59,14 @@ categories.forEach(category => {
 });
 
 // Cart routes
-let cart = { products: [] };
+let cart = { product: [] };
 
 app.get("/cart", (req, res) => {
     if (req.query.id) {
         const product = { id: req.query.id, name: req.query.name, price: req.query.price };
-        cart.products.push(product);
+        cart.product.push(product);
     }
-    res.render("cart", { products: cart.products });
+    res.render("cart", { product: cart.products });
 });
 
 // Error handling for unknown routes
