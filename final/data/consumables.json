@@ -6,11 +6,11 @@
             "name": "Elixir of Vitality",
             "description": "A vibrant red potion that restores a significant amount of health instantly.",
             "price": 50.99,
-            "image": "/public/images/vitality_elixir.jpg",
+            "image": "/images/vitality_elixir.jpg",
             "gallery": [
-                "/public/images/vitality_elixir1.jpeg",
-                "/public/images/vitality_elixir2.jpeg",
-                "/public/images/vitality_elixir3.webp"
+                "/images/vitality_elixir1.jpeg",
+                "/images/vitality_elixir2.jpeg",
+                "/images/vitality_elixir3.webp"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "name": "Scroll of Fireball",
             "description": "A magical scroll containing the incantation for a devastating fireball spell.",
             "price": 75.50,
-            "image": "/public/images/scroll_fireball.jpeg",
+            "image": "/images/scroll_fireball.jpeg",
             "gallery": [
-                "/public/images/scroll_fireball1.webp",
-                "/public/images/scroll_fireball2.png",
-                "/public/images/scroll_fireball3.png"
+                "/images/scroll_fireball1.webp",
+                "/images/scroll_fireball2.png",
+                "/images/scroll_fireball3.png"
             ]
         },
         {
@@ -32,11 +32,11 @@
             "name": "Mystic Bread",
             "description": "A loaf of enchanted bread that restores stamina and boosts strength for an hour.",
             "price": 15.25,
-            "image": "/public/images/mystic_bread.jpg",
+            "image": "/images/mystic_bread.jpg",
             "gallery": [
-                "/public/images/mystic_bread1.avif",
-                "/public/images/mystic_bread2.png",
-                "/public/images/mystic_bread3.webp"
+                "/images/mystic_bread1.avif",
+                "/images/mystic_bread2.png",
+                "/images/mystic_bread3.webp"
             ]
         },
         {
@@ -45,11 +45,11 @@
             "name": "Potion of Invisibility",
             "description": "A rare potion that grants temporary invisibility to the user.",
             "price": 120.00,
-            "image": "/public/images/potion_invisibility.png",
+            "image": "/images/potion_invisibility.png",
             "gallery": [
-                "/public/images/potion_invisibility1.jpg",
-                "/public/images/potion_invisibility2.jpeg",
-                "/public/images/potion_invisibility3.webp"
+                "/images/potion_invisibility1.jpg",
+                "/images/potion_invisibility2.jpeg",
+                "/images/potion_invisibility3.webp"
             ]
         }
     ]

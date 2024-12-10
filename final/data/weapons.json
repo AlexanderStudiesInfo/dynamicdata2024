@@ -6,11 +6,11 @@
             "name": "Shadowfang Blade",
             "description": "A sleek sword imbued with dark energy, perfect for swift and silent attacks.",
             "price": 120.99,
-            "image": "/public/images/shadowfang.jpg",
+            "image": "/images/shadowfang.jpg",
             "gallery": [
-                "/public/images/shadowfang1.jpg",
-                "/public/images/shadowfang2.jpeg",
-                "/public/images/shadowfang3.jpg"
+                "/images/shadowfang1.jpg",
+                "/images/shadowfang2.jpeg",
+                "/images/shadowfang3.jpg"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "name": "Eclipse Bow",
             "description": "A mystical bow crafted from celestial wood, known to enhance the accuracy of its wielder.",
             "price": 150.99,
-            "image": "/public/images/eclipse.webp",
+            "image": "/images/eclipse.webp",
             "gallery": [
-                "/public/images/eclipse1.webp",
-                "/public/images/eclipse2.webp",
-                "/public/images/eclipse3.jpg"
+                "/images/eclipse1.webp",
+                "/images/eclipse2.webp",
+                "/images/eclipse3.jpg"
             ]
         },
         {
@@ -32,11 +32,11 @@
             "name": "Thunderstrike Axe",
             "description": "A heavy axe forged in storms, capable of unleashing lightning with each swing.",
             "price": 180.50,
-            "image": "/public/images/thunderstrike.webp",
+            "image": "/images/thunderstrike.webp",
             "gallery": [
-                "/public/images/thunderstrike1.webp",
-                "/public/images/thunderstrike2.jpg",
-                "/public/images/thunderstrike3.webp"
+                "/images/thunderstrike1.webp",
+                "/images/thunderstrike2.jpg",
+                "/images/thunderstrike3.webp"
             ]
         },
         {
@@ -45,11 +45,11 @@
             "name": "Venomfang Dagger",
             "description": "A lightweight dagger tipped with deadly poison, ideal for close combat.",
             "price": 90.75,
-            "image": "/public/images/venomfang.jpeg",
+            "image": "/images/venomfang.jpeg",
             "gallery": [
-                "/public/images/venomfang1.jpg",
-                "/public/images/venomfang2.png",
-                "/public/images/venomfang3.jpeg"
+                "/images/venomfang1.jpg",
+                "/images/venomfang2.png",
+                " /images/venomfang3.jpeg"
             ]
         }
     ]

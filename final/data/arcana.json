@@ -8,9 +8,9 @@
             "price": 250.00,
             "image": "/images/wand_eldritch.jpg",
             "gallery": [
-                "/public/images/wand_eldritch1.jpg",
-                "/public/images/wand_eldritch2.png",
-                "/public/images/wand_eldritch3.webp"
+                "/images/wand_eldritch1.jpg",
+                "/images/wand_eldritch2.png",
+                "/images/wand_eldritch3.webp"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "name": "Staff of the Archmage",
             "description": "A towering staff imbued with the essence of the elements, enhancing spell potency.",
             "price": 400.99,
-            "image": "/public/images/staff_archmage.jpg",
+            "image": "/images/staff_archmage.jpg",
             "gallery": [
-                "/public/images/staff_archmage1.jpg",
-                "/public/images/staff_archmage2.webp",
-                "/public/images/staff_archmage3.png"
+                "/images/staff_archmage1.jpg",
+                "/images/staff_archmage2.webp",
+                "/images/staff_archmage3.png"
             ]
         },
         {
@@ -32,11 +32,11 @@
             "name": "Grimoire of Forbidden Knowledge",
             "description": "An ancient tome containing powerful and dangerous spells, bound in cursed leather.",
             "price": 300.75,
-            "image": "/public/images/grimoire_forbidden.webp",
+            "image": "/images/grimoire_forbidden.webp",
             "gallery": [
-                "/public/images/grimoire_forbidden1.jpeg",
-                "/public/images/grimoire_forbidden2.webp",
-                "/public/images/grimoire_forbidden3.jpeg"
+                "/images/grimoire_forbidden1.jpeg",
+                "/images/grimoire_forbidden2.webp",
+                "/images/grimoire_forbidden3.jpeg"
             ]
         },
         {
@@ -45,11 +45,11 @@
             "name": "Crystal of Arcane Resonance",
             "description": "A glowing crystal that amplifies magical energy, used in spellcasting rituals.",
             "price": 180.50,
-            "image": "/public/images/crystal_arcane.jpg",
+            "image": "/images/crystal_arcane.jpg",
             "gallery": [
-                "/public/images/crystal_arcane1.png",
-                "/public/images/crystal_arcane2.jpg",
-                "/public/images/crystal_arcane3.jpeg"
+                "/images/crystal_arcane1.png",
+                "/images/crystal_arcane2.jpg",
+                "/images/crystal_arcane3.jpeg"
             ]
         }
     ]

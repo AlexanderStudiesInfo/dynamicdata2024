@@ -6,11 +6,11 @@
             "name": "Steelheart Plate",
             "description": "A robust set of plate armor, offering unmatched defense against physical attacks.",
             "price": 250.99,
-            "image": "/public/images/steelheart.jpeg",
+            "image": "/images/steelheart.jpeg",
             "gallery": [
-                "/public/images/steelheart1.webp",
-                "/public/images/steelheart2.webp",
-                "/public/images/steelheart3.jpg"
+                "/images/steelheart1.webp",
+                "/images/steelheart2.webp",
+                "/images/steelheart3.jpg"
             ]
         },
         {
@@ -19,11 +19,11 @@
             "name": "Shadowweave Tunic",
             "description": "A lightweight tunic crafted from enchanted shadow silk, granting increased agility.",
             "price": 180.49,
-            "image": "/public/images/shadowweave.jpeg",
+            "image": "/images/shadowweave.jpeg",
             "gallery": [
-                "/public/images/shadowweave1.webp",
-                "/public/images/shadowweave2.jpg",
-                "/public/images/shadowweave3.jpg"
+                "/images/shadowweave1.webp",
+                "/images/shadowweave2.jpg",
+                "/images/shadowweave3.jpg"
             ]
         },
         {
@@ -32,11 +32,11 @@
             "name": "Dragonscale Vest",
             "description": "An armor forged from the scales of a dragon, balancing protection and flexibility.",
             "price": 220.75,
-            "image": "/public/images/dragonscale.jpeg",
+            "image": "/images/dragonscale.jpeg",
             "gallery": [
-                "/public/images/dragonscale1.jpg",
-                "/public/images/dragonscale2.webp",
-                "/public/images/dragonscale3.webp"
+                "/images/dragonscale1.jpg",
+                "/images/dragonscale2.webp",
+                "/images/dragonscale3.webp"
             ]
         },
         {
@@ -45,11 +45,11 @@
             "name": "Starlight Robes",
             "description": "Ethereal robes infused with celestial magic, offering protection against spells.",
             "price": 300.00,
-            "image": "/public/images/starlight.jpeg",
+            "image": "/images/starlight.jpeg",
             "gallery": [
-                "/public/images/starlight1.webp",
-                "/public/images/starlight2.webp",
-                "/public/images/starlight3.jpg"
+                "/images/starlight1.webp",
+                "/images/starlight2.webp",
+                "/images/starlight3.jpg"
             ]
         }
     ]
